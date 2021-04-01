@@ -1,0 +1,26 @@
+{
+   "manifest_version": 2,
+   "name": "TAPI",
+   "version": "1.0.0",
+   "description": "Chrome DevTools extension for TAPI applications.",
+   "icons": {
+      "16": "img/icon.png",
+      "48": "img/icon.png",
+      "128": "img/icon.png"
+   },
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "js/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "homepage_url": "https://www.baidu.com",
+   "permissions": [ "\u003Call_urls>" ],
+   "web_accessible_resources": [ "js/injected.js", "js/uuid.js", "js/message.js" ]
+}
