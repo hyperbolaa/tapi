@@ -13,9 +13,9 @@ laravel+vue+elementUI
 
 
 #### 截图
-![image.png](https://upload-images.jianshu.io/upload_images/5621515-a56a05708635455a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://oscimg.oschina.net/oscnet/up-4ec45b3e8711f5ee1f21f606269a6d2b7b9.png)
 
-![image.png](https://upload-images.jianshu.io/upload_images/5621515-8c15d09f563ca24e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![image.png](https://oscimg.oschina.net/oscnet/up-95f1ff9f09044d3280244654dd82664358e.png)
 
 #### 备注
 本项目只是抛砖引玉的作用， 因个人时间有限， 只是做了一个初步的架构设计， 后期的mock，案例等功能需自己开发。
